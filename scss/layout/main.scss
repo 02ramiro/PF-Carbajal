@@ -1,24 +1,27 @@
 .main {
-    background-image: url(https://assets.stickpng.com/images/5846a033cef1014c0b5e47fb.png);
+    background: #8e9eab;
+    background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);
+    background: linear-gradient(to right, #eef2f3, #8e9eab);
     background-position: top;
     height: 100vh; 
 }
 
 .main__title {
     text-align: center;
-    margin: 100px 20px 10px 20px;
-    font-weight: bolde;
+    margin: 0px 14px 10px 14px;
+    padding-top: 75px;
 }
 
 .main__text {
     text-align: center;
     font-size: 15px;
-    margin: 5px 30px 0px 30px;
+    margin: 5px 20px 0px 20px;
 }
 
 .main_servicios {
-    background-color: rgba(0, 255, 255, 0.192);
-    margin-bottom: 0px;
+    background: #8e9eab;
+    background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);
+    background: linear-gradient(to right, #eef2f3, #8e9eab);
 
 }
 
@@ -44,9 +47,9 @@
         justify-content: center;
         align-items: center;
         background-size: cover;
-        background-image: url("https://www.kosner.es/wp-content/uploads/2022/06/instalacion-aire-acondicionado-que-se-necesita-scaled.jpg");
-        height: 700px;
-        width: auto;;
+        background: #8e9eab;
+        background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);
+        background: linear-gradient(to right, #eef2f3, #8e9eab);
     }
     
     .main__container-text{
@@ -55,28 +58,24 @@
     }
     
     .main__title {
-        background: rgba(240, 248, 255, 0.537);
         @include title()
     }
     
     .main__text {
         font-size: 25px;
         text-align: center;
-        background-color: rgba(240, 248, 255, 0.537);
         padding: 17px 7px 17px 24px;
     }
     
     .main_servicios {
-        height: 700px;
-        width: auto;
-        background-size: cover;
-        background-image: url("https://www.kosner.es/wp-content/uploads/2022/06/instalacion-aire-acondicionado-que-se-necesita-scaled.jpg");
+        background: #8e9eab;
+        background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);
+        background: linear-gradient(to right, #eef2f3, #8e9eab);
     }
     
     .main_servicios-main-title {
         text-align: center;
         font-size: 40px;
-        background-color: rgba(240, 248, 255, 0.614);
     }
     
     .section_main-services {
@@ -90,14 +89,13 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-top: 260px;
+        margin-top: 205px;
     }
     
     .main_title-services {
-        color: aqua;
+        color: rgb(28, 133, 133);
         font-size: 31px;
         text-align: center;
-        background-color: rgba(19, 19, 19, 0.564);
         letter-spacing: 2px;
         padding-left: 40px;
         padding-right: 40px;
@@ -106,15 +104,13 @@
     .main_text-services {
         font-size: 24px;
         text-align: center;
-        background-color: rgba(19, 19, 19, 0.564);
-        color: aliceblue;
+        color: rgb(32, 33, 34);
     }
     
     .main_text-services2 {
         font-size: 24px;
         text-align: center;
-        background-color: rgba(19, 19, 19, 0.564);
-        color: aliceblue;
+        color: rgb(15, 15, 15);
         margin-left: 84px;
         margin-right: 50px;
     }
@@ -125,13 +121,13 @@
         align-items: center;
         height: 1390px;
         width: auto;
-        background-size: cover;
-        background-image: url("https://www.kosner.es/wp-content/uploads/2022/06/instalacion-aire-acondicionado-que-se-necesita-scaled.jpg");
+        background: #8e9eab;
+        background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);
+        background: linear-gradient(to right, #eef2f3, #8e9eab);
     }
     
     .main__about-us-title {
         text-align: center;
-        background-color: rgba(240, 248, 255, 0.601);
         @include title ();
     }
     
@@ -139,7 +135,6 @@
         font-size: 20px;
         font-weight: 600;
         line-height: 1.5;
-        background-color: rgba(165, 188, 207, 0.635);
         padding: 40px 30px 40px 30px;
         text-align: center;
         column-count: 3;
@@ -159,18 +154,18 @@
         flex-direction: column;
         align-items: center;
         height: 600px;
-        background-size: cover;
-        background-image: url("https://www.kosner.es/wp-content/uploads/2022/06/instalacion-aire-acondicionado-que-se-necesita-scaled.jpg");
+        background: #8e9eab;
+        background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);
+        background: linear-gradient(to right, #eef2f3, #8e9eab);
     }
     
     .main__contact-us-title {
         text-align: center;
-        background-color: rgba(240, 248, 255, 0.601);
         @include title ()
     }
     
     .main__contact-us-form {
-        background-color: rgba(165, 188, 207, 0.635);
+        background-color: rgba(87, 107, 124, 0.635);
         padding: 50px;
         border-radius: 20px;
         height: 410px;
@@ -192,18 +187,17 @@
         flex-direction: column;
         align-items: center;
         height: 650px;
-        background-size: cover;
-        background-image: url("https://www.kosner.es/wp-content/uploads/2022/06/instalacion-aire-acondicionado-que-se-necesita-scaled.jpg");
+        background: #8e9eab;
+        background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);
+        background: linear-gradient(to right, #eef2f3, #8e9eab);
     }
 
     .questions_title {
         @include title();
-        background-color: rgba(240, 248, 255, 0.744);
     }
     
     .questions {
         text-align: left;
-        background-color: rgba(165, 188, 207, 0.781);
         font-size: 24px;
         line-height: 3;
     }
