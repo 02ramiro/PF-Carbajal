@@ -18,7 +18,7 @@
   }
   .header__nav {
     display: block;
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: space-evenly;
     padding: 28px 0 28px 0;
@@ -26,10 +26,15 @@
   .paginas {
     display: block;
     font-size: 20px;
-    text-decoration: none;
     color: rgb(31, 46, 179);
     font-weight: bold;
-    letter-spacing: 7px;
+    letter-spacing: 5px;
+    text-decoration: none;
+    transition: text-decoration 2s, color 1s;
+  }
+  .paginas:hover {
+    text-decoration: underline;
+    color: rgb(91, 94, 120);
   }
 }
 
