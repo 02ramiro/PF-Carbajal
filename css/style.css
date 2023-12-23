@@ -58,6 +58,23 @@ h2 {
   padding-top: 75px;
 }
 
+.desplegable_mobile {
+  background-color: rgba(238, 242, 243, 0.3098039216);
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  border-radius: 53px;
+  text-align: center;
+}
+
+.desplegable_mobile_paginas {
+  display: none;
+  color: black;
+  margin-left: 20px;
+  line-height: 3;
+  text-decoration: none;
+}
+
 .main__text {
   text-align: center;
   font-size: 15px;
@@ -86,7 +103,92 @@ h2 {
   color: rgb(52, 158, 158);
 }
 
+.main_title-services2 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: rgb(52, 158, 158);
+}
+
+.main__about-us-title {
+  text-align: center;
+  margin: 20px;
+}
+
+.main__about-us-text {
+  text-align: center;
+  margin: 0 23px 30px 23px;
+}
+
+.main__about-us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 1390px;
+  background: linear-gradient(to right, #eef2f3, #8e9eab);
+}
+
+.main__about-us-img {
+  width: 80%;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+
+.main__questions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(to right, #eef2f3, #8e9eab);
+}
+
+.questions_title {
+  font-size: 22px;
+  margin-top: -40px;
+  margin-bottom: 28px;
+}
+
+.questions {
+  text-align: center;
+}
+
+.main__lines {
+  text-align: center;
+  margin: 15px 50px 15px 50px;
+}
+
+.main__contact-us-title {
+  text-align: center;
+  font-size: 25px;
+  margin: 20px;
+}
+
+.main__contact-us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 600px;
+  background: linear-gradient(to right, #eef2f3, #8e9eab);
+}
+
+.main__contact-us-form {
+  background-color: rgba(87, 107, 124, 0.635);
+  padding: 50px 50px 0 31px;
+  margin: 0 20px 0 20px;
+  border-radius: 20px;
+  height: 410px;
+}
+
+.main__contact-us-btn {
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
 @media (min-width: 1000px) {
+  .desplegable_mobile {
+    display: none;
+  }
   .main {
     display: flex;
     justify-content: center;
@@ -140,6 +242,14 @@ h2 {
     padding-left: 40px;
     padding-right: 40px;
   }
+  .main_title-services2 {
+    color: rgb(28, 133, 133);
+    font-size: 31px;
+    text-align: center;
+    letter-spacing: 2px;
+    padding-left: 153px;
+    padding-right: 40px;
+  }
   .main_text-services {
     font-size: 24px;
     text-align: center;
@@ -149,18 +259,8 @@ h2 {
     font-size: 24px;
     text-align: center;
     color: rgb(15, 15, 15);
-    margin-left: 84px;
+    margin-left: 163px;
     margin-right: 50px;
-  }
-  .main__about-us {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 1390px;
-    width: auto;
-    background: #8e9eab;
-    background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);
-    background: linear-gradient(to right, #eef2f3, #8e9eab);
   }
   .main__about-us-title {
     text-align: center;
@@ -185,45 +285,17 @@ h2 {
     border-radius: 10px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
   }
-  .main__contact-us {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 600px;
-    background: #8e9eab;
-    background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);
-    background: linear-gradient(to right, #eef2f3, #8e9eab);
-  }
   .main__contact-us-title {
-    text-align: center;
     font-size: 40px;
     padding: 0 80px 0 80px;
     margin-top: 20px;
     margin-bottom: 20px;
   }
   .main__contact-us-form {
-    background-color: rgba(87, 107, 124, 0.635);
     padding: 50px;
-    border-radius: 20px;
-    height: 410px;
-  }
-  .main__contact-us-btn {
-    padding: 10px 20px;
-    font-size: 18px;
-    border-radius: 5px;
-    margin-bottom: 20px;
   }
   .main__contact-us-label {
     font-size: 20px;
-  }
-  .main__questions {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 650px;
-    background: #8e9eab;
-    background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);
-    background: linear-gradient(to right, #eef2f3, #8e9eab);
   }
   .questions_title {
     font-size: 40px;
@@ -237,7 +309,7 @@ h2 {
     line-height: 3;
   }
   .main__lines {
-    border-color: black;
+    margin: 0;
   }
 }
 .footer__logo {
