@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
 </head>
 
@@ -39,26 +39,96 @@
         </nav>
     </header>
 
-    <main class="main__questions">
-        <h2 class="questions_title">Preguntas Frecuentes</h2>
-        <article class="questions">
-            <ul>
-                <li>¿Cuánto demora una instalación?</li>
-                <hr class="main__lines">
-                <li>¿Cuánto cuesta instalar 2 aire acondicionado?</li>
-                <hr class="main__lines">
-                <li>¿Tienen a la venta equipos?</li>
-                <hr class="main__lines">
-                <li>¿Qué garantía tienen los arreglos?</li>
-                <hr class="main__lines">
-                <li>¿Cuánto demora en arreglar mi heladera?</li>
-                <hr class="main__lines">
-                <li>¿Cuánto cuesta una recarga de gas para el equipo?</li>
-                <hr class="main__lines">
-                <li>¿Cuentan con vehículos para llevarse los equipos que ya no funcionen?</li>
-                <hr class="main__lines">
-            </ul>
-        </article>
+    <main class="main__questions pb-5">
+        <h3 class="text-center p-4">Preguntas Frecuentes</h3>
+        <div class="accordion accordion-flush col-8 w-70 m-auto" id="accordionFlushExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        ¿Cuánto demora una instalación?
+                    </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">En general, la instalación de un sistema de aire acondicionado puede
+                        tomar desde unas pocas horas (en el caso de una unidad de ventana) hasta varios días (en el caso
+                        de sistemas más
+                        complejos o instalaciones que requieren modificaciones estructurales importantes). Lo mejor es
+                        consultarnos mediante la casilla de "Contactanos" para obtener una estimación más
+                        precisa según tu situación específica.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        ¿Qué garantía tienen los arreglos?
+                    </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Las garantías de los arreglos de aire acondicionado varían según la
+                        estación del año en la que se realicen. Durante la primavera y el verano, los arreglos tienen
+                        una "Garantía de Frescura" que asegura que el aire acondicionado mantendrá una frescura óptima y
+                        un ambiente agradable en el hogar. Mientras tanto, durante el otoño e invierno, ofrecemos una
+                        "Garantía de Calidez" que asegura que el sistema mantendrá un calor confortable y acogedor en
+                        todo momento. Ambas garantías vienen respaldadas por nuestro compromiso con el confort y la
+                        satisfacción del cliente, garantizando un rendimiento óptimo del aire acondicionado durante todo
+                        el año.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        ¿Cuánto cuesta una recarga de gas para el equipo?
+                    </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Esto, el precio de una recarga de gas para un equipo de aire
+                        acondicionado puede estar en un rango amplio, desde unos pocos cientos hasta varios cientos de
+                        dólares o más, dependiendo de los factores mencionados anteriormente. Para obtener un costo más
+                        preciso y específico para tu equipo en particular, te recomiendo contactar a un profesional en
+                        aire acondicionado o a un técnico especializado que pueda evaluar tu situación y proporcionarte
+                        una estimación más precisa.</div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                        ¿Tienen a la venta equipos de aire acondicionado?
+                    </button>
+                </h2>
+                <div id="flush-collapseFour" class="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">En este momento, no disponemos de equipos de aire acondicionado en
+                        venta. Sin embargo, estamos aquí para ofrecerte asesoramiento y orientación para ayudarte a
+                        tomar la mejor decisión en la compra de un equipo de aire acondicionado. Podemos proporcionarte
+                        información detallada sobre los diferentes tipos de aires acondicionados disponibles en el
+                        mercado, sus capacidades y características para ayudarte a tomar una decisión informada que se
+                        adapte a tus necesidades específicas. No dudes en preguntar cualquier duda que tengas sobre
+                        equipos de aire acondicionado, ¡estamos aquí para ayudarte¡</div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                        ¿Cuánto demora en arreglar mi heladera?
+                    </button>
+                </h2>
+                <div id="flush-collapseFive" class="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">El tiempo para arreglar una heladera puede variar dependiendo de la
+                        complejidad del problema. Reparaciones simples pueden llevar entre una hora y tres horas, pero
+                        problemas más complejos podrían tomar más tiempo, incluso un día o más. Es mejor consultar
+                        directamente con el servicio técnico para obtener una estimación más precisa.</div>
+                </div>
+            </div>
+        </div>
     </main>
 
     <footer class="footer">
@@ -68,6 +138,7 @@
 
     <body>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+
 </html>

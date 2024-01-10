@@ -1,29 +1,9 @@
 .main {
     background: linear-gradient(to right, #eef2f3, #8e9eab);
-    height: 80vh; 
-}
-
-h2 {
-    text-align: center;
-    margin: 0px 14px 10px 14px;
-    padding-top: 75px;
-}
-
-.desplegable_mobile {
-    background-color: #eef2f34f;
+    height: 80vh;
     display: flex;
-    flex-direction: column;
-    width: 60%;
-    border-radius: 53px;
-    text-align: center;
-}
-
-.desplegable_mobile_paginas {
-    display: none;
-    color: black;
-    margin-left: 20px;
-    line-height: 3;
-    text-decoration: none;
+    justify-content: center;
+    align-items: center;
 }
 
 .main__text {
@@ -33,10 +13,8 @@ h2 {
 }
 
 .main_servicios {
-    background: #8e9eab;
-    background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);
     background: linear-gradient(to right, #eef2f3, #8e9eab);
-
+    height: auto;
 }
 
 .section_main-services {
@@ -67,11 +45,6 @@ h2 {
     margin: 20px;
 }
 
-.main__about-us-text {
-    text-align: center;
-    margin: 0 23px 30px 23px;
-}
-
 .main__about-us {
     display: flex;
     flex-direction: column;
@@ -80,33 +53,19 @@ h2 {
     background: linear-gradient(to right, #eef2f3, #8e9eab);
 }
 
+.main__about-us-article {
+    width: 70%;
+}
+
 .main__about-us-img {
     width: 80%;
     margin-bottom: 30px;
     border-radius: 10px;
 }
 
-.main__questions {
-    display: flex;
-    flex-direction: column;
-    align-items: center;    
+.main__questions {   
     background: linear-gradient(to right, #eef2f3, #8e9eab);
-}
-
-.questions_title {
-    font-size: 22px;
-    margin-top: -40px;
-    margin-bottom: 28px;
-}
-
-.questions {
-    text-align: center;
-    
-}
-
-.main__lines {
-    text-align: center;
-    margin: 15px 50px 15px 50px ;
+    height:auto;
 }
 
 .main__contact-us-title {
@@ -139,30 +98,9 @@ h2 {
 }
 
 @media (min-width: 1000px) {
-    .desplegable_mobile {
-        display: none;
-    }
 
-    .main{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background: linear-gradient(to right, #eef2f3, #8e9eab);
-    }
-    
-    .main__container-text{
-        display: flex;
-        flex-direction: column;
-    }
-    
-    h2 {
-        @include title();
-        margin-top: -115px;
-        text-align: center;
-    }
-    
     .main__text {
-        font-size: 25px;
+        font-size: 22px;
         text-align: center;
         padding: 17px 7px 17px 24px;
     }
@@ -225,21 +163,9 @@ h2 {
         margin-right: 50px;
     }
     
-    
-    
     .main__about-us-title {
         text-align: center;
         @include title ();
-    }
-    
-    .main__about-us-text {
-        font-size: 20px;
-        font-weight: 600;
-        line-height: 1.5;
-        padding: 40px 30px 40px 30px;
-        text-align: center;
-        column-count: 3;
-        column-gap: 20px;
     }
     
     .main__about-us-img {
@@ -264,15 +190,5 @@ h2 {
 
     .questions_title {
         @include title();
-    }
-    
-    .questions {
-        text-align: left;
-        font-size: 24px;
-        line-height: 3;
-    }
-    
-    .main__lines {
-        margin: 0;
     }
 }
