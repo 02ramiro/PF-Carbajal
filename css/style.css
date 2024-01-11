@@ -45,8 +45,7 @@ body {
   justify-content: center;
   align-items: center;
 }
-
-.main__text {
+.main .main__text {
   text-align: center;
   font-size: 15px;
   margin: 5px 20px 0px 20px;
@@ -56,33 +55,24 @@ body {
   background: linear-gradient(to right, #eef2f3, #8e9eab);
   height: auto;
 }
-
-.section_main-services {
-  padding: 0 20px 30px 20px;
-}
-
-.main_servicios-main-title {
+.main_servicios .main_servicios-main-title {
   text-align: center;
   padding-top: 35px;
 }
-
-.main_title-services {
+.main_servicios .section_main-services {
+  padding: 0 20px 30px 20px;
+}
+.main_servicios .section_main-services .main_title-services {
   text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
   color: rgb(52, 158, 158);
 }
-
-.main_title-services2 {
+.main_servicios .section_main-services .main_title-services2 {
   text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
   color: rgb(52, 158, 158);
-}
-
-.main__about-us-title {
-  text-align: center;
-  margin: 20px;
 }
 
 .main__about-us {
@@ -92,9 +82,8 @@ body {
   height: auto;
   background: linear-gradient(to right, #eef2f3, #8e9eab);
 }
-
-.main__about-us-article {
-  width: 70%;
+.main__about-us .main__about-us-article {
+  width: 80%;
 }
 
 .main__about-us-img {
@@ -108,33 +97,12 @@ body {
   height: auto;
 }
 
-.main__contact-us-title {
-  text-align: center;
-  font-size: 25px;
-  margin: 20px;
-}
-
 .main__contact-us {
   display: flex;
   flex-direction: column;
   align-items: center;
   height: 600px;
   background: linear-gradient(to right, #eef2f3, #8e9eab);
-}
-
-.main__contact-us-form {
-  background-color: rgba(87, 107, 124, 0.635);
-  padding: 50px 50px 0 31px;
-  margin: 0 20px 0 20px;
-  border-radius: 20px;
-  height: auto;
-}
-
-.main__contact-us-btn {
-  padding: 10px 20px;
-  font-size: 18px;
-  border-radius: 5px;
-  margin-bottom: 20px;
 }
 
 @media (min-width: 1000px) {
@@ -148,24 +116,24 @@ body {
     background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);
     background: linear-gradient(to right, #eef2f3, #8e9eab);
   }
-  .main_servicios-main-title {
+  .main_servicios .main_servicios-main-title {
     text-align: center;
     font-size: 40px;
   }
-  .section_main-services {
+  .main_servicios .section_main-services {
     display: flex;
     flex-direction: row;
     margin-top: -150px;
     margin-left: 60px;
     margin-right: 47px;
   }
-  .article_main-services {
+  .main_servicios .section_main-services .article_main-services {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 205px;
   }
-  .main_title-services {
+  .main_servicios .section_main-services .article_main-services .main_title-services {
     color: rgb(28, 133, 133);
     font-size: 31px;
     text-align: center;
@@ -173,7 +141,7 @@ body {
     padding-left: 40px;
     padding-right: 40px;
   }
-  .main_title-services2 {
+  .main_servicios .section_main-services .article_main-services .main_title-services2 {
     color: rgb(28, 133, 133);
     font-size: 31px;
     text-align: center;
@@ -181,12 +149,12 @@ body {
     padding-left: 153px;
     padding-right: 40px;
   }
-  .main_text-services {
+  .main_servicios .section_main-services .article_main-services .main_text-services {
     font-size: 24px;
     text-align: center;
     color: rgb(32, 33, 34);
   }
-  .main_text-services2 {
+  .main_servicios .section_main-services .article_main-services .main_text-services2 {
     font-size: 24px;
     text-align: center;
     color: rgb(15, 15, 15);
@@ -201,25 +169,18 @@ body {
     margin-bottom: 20px;
   }
   .main__about-us-img {
-    width: 500px;
-    align-items: center;
+    width: 45%;
     margin-top: 30px;
     border-radius: 10px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
   }
-  .main__contact-us-title {
+  .questions_title {
     font-size: 40px;
     padding: 0 80px 0 80px;
     margin-top: 20px;
     margin-bottom: 20px;
   }
-  .main__contact-us-form {
-    padding: 50px;
-  }
-  .main__contact-us-label {
-    font-size: 20px;
-  }
-  .questions_title {
+  .main__contact-us-title {
     font-size: 40px;
     padding: 0 80px 0 80px;
     margin-top: 20px;
